@@ -1,6 +1,6 @@
 {
 	"name": "Image Replacer",
-	"description": "Replaces all images.",
+	"description": "Replace all images with whatever you want.",
 	"author": "MysteryPancake",
 	"manifest_version": 2,
 	"version": "1.0",
