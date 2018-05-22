@@ -1,2 +1,4 @@
-# Image-Replacer
-Replaces all images.
+# Image Replacer
+Replace all images with whatever you want.
+
+![Icon](icon512.png?raw=true)
