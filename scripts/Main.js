@@ -9,5 +9,9 @@ chrome.storage.sync.get({
 		css.type = "text/css";
 		css.innerHTML = "img { content: url(\"" + items.url + "\") !important; }";
 		document.body.appendChild(css);
+		var images = document.getElementsByTagName("img");
+		for (var i = 0; i < images.length; i++) {
+			images[i].src = items.url;
+		}
 	}
 });
