@@ -3,7 +3,7 @@
 	"description": "Replace all images with whatever you want.",
 	"author": "MysteryPancake",
 	"manifest_version": 2,
-	"version": "1.2",
+	"version": "1.3",
 	"browser_action": {
 		"default_title": "Image Replacer",
 		"default_popup": "index.html"
@@ -22,5 +22,6 @@
 		"48": "icon48.png",
 		"128": "icon128.png"
 	},
-	"permissions": ["storage"]
+	"permissions": ["storage"],
+	"short_name": "Image Replacer"
 }
