@@ -18,7 +18,7 @@ chrome.storage.sync.get({
 		var css = document.createElement("style");
 		css.innerHTML = "img { content: url(\"" + url + "\") !important; }";
 		document.body.appendChild(css);
-		setInterval(replace, 3000);
+		window.setInterval(replace, 3000);
 		replace();
 	}
 });
