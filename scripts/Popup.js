@@ -24,8 +24,8 @@ function changed() {
 }
 
 function enter(e) {
-	e.preventDefault();
 	if (e.keyCode === 13) {
+		e.preventDefault();
 		save();
 	}
 }
@@ -34,4 +34,4 @@ document.addEventListener("DOMContentLoaded", restore);
 document.getElementById("submit").addEventListener("click", save);
 document.getElementById("enabled").addEventListener("click", changed);
 document.getElementById("url").addEventListener("input", changed);
-document.getElementById("url").addEventListener("keyup", enter);
+document.getElementById("url").addEventListener("keydown", enter);
