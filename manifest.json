@@ -2,9 +2,9 @@
 	"name": "Image Replacer",
 	"description": "Replace all images with whatever you want.",
 	"author": "MysteryPancake",
-	"manifest_version": 2,
-	"version": "1.4",
-	"browser_action": {
+	"manifest_version": 3,
+	"version": "1.5",
+	"action": {
 		"default_title": "Image Replacer",
 		"default_popup": "index.html"
 	},
@@ -19,8 +19,13 @@
 	"homepage_url": "https://github.com/MysteryPancake/Image-Replacer",
 	"icons": {
 		"16": "icon16.png",
+		"24": "icon24.png",
+		"32": "icon32.png",
 		"48": "icon48.png",
-		"128": "icon128.png"
+		"64": "icon64.png",
+		"128": "icon128.png",
+		"256": "icon256.png",
+		"512": "icon512.png"
 	},
 	"permissions": ["storage"],
 	"short_name": "Image Replacer"
